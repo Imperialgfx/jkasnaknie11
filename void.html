@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-[#0d1117] dark">
+    <head>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="preload" as="image" href="/logo/logo.gif"/>
+        <link rel="preload" as="image" href="/icons/elite.png"/>
+        <link rel="preload" as="image" href="/showcase/loader.gif"/>
+        <link rel="preload" as="image" href="/icons/delivery.png"/>
+        <link rel="preload" as="image" href="/icons/eye.png"/>
+        <link rel="preload" as="image" href="/icons/easy.png"/>
+        <link rel="preload" as="image" href="/icons/money.png"/>
+        <link rel="preload" as="image" href="/icons/community.png"/>
+        <link rel="preload" as="image" href="/icons/support.png"/>
+        <link rel="stylesheet" href="/_next/static/css/8311b8364a5d51ae.css" data-precedence="next"/>
+        <link rel="stylesheet" href="/_next/static/css/f905e3f5554554b8.css" data-precedence="next"/>
+        <link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-9030be22cfc0a918.js"/>
+        <script src="/_next/static/chunks/fd9d1056-a1b9a61db0c4fc81.js" async=""></script>
+        <script src="/_next/static/chunks/938-165a9627d3a27de0.js" async=""></script>
+        <script src="/_next/static/chunks/main-app-01dcb8892b176af1.js" async=""></script>
+        <script src="/_next/static/chunks/07115393-0a66b3ea90e8b4e2.js" async=""></script>
+        <script src="/_next/static/chunks/9081a741-50529ccef24d3133.js" async=""></script>
+        <script src="/_next/static/chunks/448-9d288712b8a24c28.js" async=""></script>
+        <script src="/_next/static/chunks/715-4d584df441e6296c.js" async=""></script>
+        <script src="/_next/static/chunks/270-9fcd7d40b078f269.js" async=""></script>
+        <script src="/_next/static/chunks/40-73d3ba9743a5cd39.js" async=""></script>
+        <script src="/_next/static/chunks/app/page-0d1ceca0a73bb16c.js" async=""></script>
+        <script src="/_next/static/chunks/834-27ccbba0642013a5.js" async=""></script>
+        <script src="/_next/static/chunks/812-2e70824dd49d0697.js" async=""></script>
+        <script src="/_next/static/chunks/69-b8e530cc409252ec.js" async=""></script>
+        <script src="/_next/static/chunks/app/layout-38b2a1286568e3d4.js" async=""></script>
+        <script src="/_next/static/chunks/app/error-be4892ff22ce13e1.js" async=""></script>
+        <title>Void Spoofer</title>
+        <meta name="description" content="Explore the depths of The Void and find your path to greatness."/>
+        <meta property="og:title" content="Void Spoofer"/>
+        <meta property="og:description" content="Explore the depths of The Void and find your path to greatness."/>
+        <meta property="og:url" content="https://thevoid-bay.vercel.app"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:image" content="https://file.garden/ZVuaXjrahkhXWc7g/voidd_banner.gif"/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="Void Spoofer"/>
+        <meta name="twitter:description" content="Explore the depths of The Void and find your path to greatness."/>
+        <meta name="twitter:image" content="https://file.garden/ZVuaXjrahkhXWc7g/voidd_banner.gif"/>
+        <link rel="icon" href="/logo/logo.gif"/>
+        <script src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" noModule=""></script>
+    </head>
+    <body class="font-kanit antialiased">
+        <canvas id="starfield" style="padding:0;margin:0;position:fixed;top:0;right:0;bottom:0;left:0;z-index:10;opacity:1;pointer-events:none;mix-blend-mode:screen"></canvas>
+        <div data-overlay-container="true">
+            <nav class="flex w-full h-auto items-center justify-center data-[menu-open=true]:border-none top-0 inset-x-0 backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl navbar_underline_glow fixed z-50 bg-transparent p-2 shadow-md backdrop-saturate-100" style="--navbar-height:4rem;transform:none">
+                <header class="z-40 flex px-6 gap-4 w-full flex-row relative flex-nowrap items-center justify-between h-[var(--navbar-height)] max-w-[1280px]">
+                    <ul class="flex gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 basis-1/5 sm:basis-full" data-justify="start">
+                        <li class="flex basis-0 flex-row flex-grow flex-nowrap justify-start bg-transparent items-center no-underline text-medium whitespace-nowrap box-border max-w-fit gap-3">
+                            <a class="flex items-center justify-start gap-1" href="/">
+                                <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:70px">
+                                    <img src="/logo/logo.gif" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large" width="70"/>
+                                </div>
+                            </a>
+                        </li>
+                        <ul class="ml-2 hidden justify-start gap-4 md:flex">
+                            <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary" color="foreground" href="/#home">Home</a>
+                            </li>
+                            <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary" color="foreground" href="/#about">About</a>
+                            </li>
+                            <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary" color="foreground" href="/#products">Products</a>
+                            </li>
+                            <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary" color="foreground" href="/faq">Faq</a>
+                            </li>
+                            <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary" color="foreground" href="/reviews">Reviews</a>
+                            </li>
+                        </ul>
+                    </ul>
+                    <ul class="gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 hidden basis-1/5 sm:basis-full md:flex" data-justify="end">
+                        <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                            <a class="relative tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity flex items-center justify-center" aria-label="Youtube" tabindex="0" role="link" href="https://www.elitepvpers.com/forum/valorant-trading/5165255-14-99-void-permanent-spoofer-cheapest-one-click-spoofer.html" rel="noopener noreferrer" target="_blank">
+                                <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                    <img src="/icons/elite.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large w-7"/>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold">
+                            <a class="relative tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity flex items-center justify-center" aria-label="Youtube" tabindex="0" role="link" href="https://www.youtube.com/@nogerman-pr8ee" rel="noopener noreferrer" target="_blank">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="text-xl text-primary " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="text-medium whitespace-nowrap box-border list-none data-[active=true]:font-semibold hidden md:flex">
+                            <a class="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-4 min-w-unit-20 h-unit-10 gap-unit-2 rounded-medium [&amp;&gt;svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-primary/20 data-[hover=true]:opacity-hover text-sm text-white" tabindex="0" role="button" href="https://discord.gg/devo1d" target="_blank" rel="noopener noreferrer">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" class="text-xl text-primary" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" tabindex="-1">
+                                    <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                                </svg>
+                                Discord
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="flex gap-4 h-full flex-row flex-nowrap items-center data-[justify=start]:justify-start data-[justify=start]:flex-grow data-[justify=start]:basis-0 data-[justify=center]:justify-center data-[justify=end]:justify-end data-[justify=end]:flex-grow data-[justify=end]:basis-0 basis-1 pl-4 md:hidden" data-justify="end">
+                        <button class="group flex items-center justify-center w-6 h-full rounded-small tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2" type="button" aria-pressed="false">
+                            <span class="sr-only">open navigation menu</span>
+                            <span class="w-full h-full pointer-events-none flex flex-col items-center justify-center text-inherit group-data-[pressed=true]:opacity-70 transition-opacity before:content-[&#x27;&#x27;] before:block before:h-px before:w-6 before:bg-current before:transition-transform before:duration-150 before:-translate-y-1 before:rotate-0 group-data-[open=true]:before:translate-y-px group-data-[open=true]:before:rotate-45 after:content-[&#x27;&#x27;] after:block after:h-px after:w-6 after:bg-current after:transition-transform after:duration-150 after:translate-y-1 after:rotate-0 group-data-[open=true]:after:translate-y-0 group-data-[open=true]:after:-rotate-45"></span>
+                        </button>
+                    </ul>
+                </header>
+            </nav>
+            <section>
+                <div>
+                    <main id="home" class="m-auto flex min-h-screen max-w-screen-xl flex-col items-center justify-center px-4 py-8 text-center lg:px-12 lg:py-16 mt-10 sm:mt-0">
+                        <a class="relative tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 no-underline hover:opacity-80 active:opacity-disabled transition-opacity mb-7 inline-flex items-center justify-between rounded-full border border-gray-400 bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 dark:bg-transparent dark:text-white" tabindex="0" role="alert" href="/#about">
+                            <span class="mr-3 rounded-full bg-primary px-4 py-1.5  text-xs text-white">New</span>
+                            <span class=" mr-2 text-sm ">Void is out! See what &#x27;s new</span>
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
+                            </svg>
+                        </a>
+                        <div class="hero_gradient"></div>
+                        <h1 class="hero_h1 mb-4  text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl">SEEK GREATNESS, ESCAPE THE VOID.</h1>
+                        <p class="hero_p mb-8 text-lg font-light  text-gray-500 sm:px-16 lg:text-xl xl:px-48 dark:text-gray-400">Take the guesswork out of your next spoofing adventure. Go with Void, the most reputable and longstanding spoofer provider!</p>
+                        <div class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16">
+                            <a class="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-large [&amp;&gt;svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-primary text-primary-foreground data-[hover=true]:opacity-hover" tabindex="0" role="button" href="/#products">Shop</a>
+                            <a class="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-large [&amp;&gt;svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-primary text-primary data-[hover=true]:opacity-hover" tabindex="0" role="button" href="/#about">Get Started</a>
+                        </div>
+                    </main>
+                </div>
+                <div>
+                    <section>
+                        <main class="m-auto flex min-h-screen max-w-screen-xl flex-col items-center justify-center px-4 py-8 text-center lg:px-12 lg:py-16">
+                            <div class="mb-10">
+                                <h1 class="tracking-tight inline font-semibold text-gray-400 text-[2.3rem] lg:text-5xl leading-9 mb-0 inline text-[2.3rem] font-semibold leading-9 tracking-tight text-gray-400 lg:text-5xl">
+                                    <span class="font-orbitron font-black text-primary">SHOWCASE</span>
+                                </h1>
+                                <p class="mt-2 text-sm font-extralight text-gray-400">Swipe to right</p>
+                            </div>
+                            <div class="swiper mySwiper w-80 rounded-md hover:cursor-grab sm:w-[60rem]">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <video class="w-full h-auto" controls="">
+                                            <source src="/showcase/showcase.mp4" type="video/mp4"/>Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                            <img src="/showcase/loader.gif" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large" alt="Loader"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </main>
+                    </section>
+                </div>
+                <div>
+                    <section>
+                        <main id="products" class="m-auto flex min-h-screen max-w-screen-xl flex-col items-center justify-center px-4 py-8 text-center lg:px-12 lg:py-16">
+                            <h1 class="tracking-tight inline font-semibold text-gray-400 text-[2.3rem] lg:text-5xl leading-9 mb-20">
+                                OUR
+                                <!-- -->
+                                <span class="font-orbitron font-black text-primary">PRODUCTS</span>
+                            </h1>
+                            <div data-slot="base" class="inline-flex" aria-label="Void">
+                                <div data-slot="tabList" class="flex p-1 h-fit gap-2 items-center flex-nowrap overflow-x-scroll scrollbar-hide bg-transparent dark:bg-transparent border-medium border-default-200 shadow-sm rounded-medium" id="react-aria-:R2bnila:" aria-label="Void" role="tablist" aria-orientation="horizontal">
+                                    <button data-slot="tab" tabindex="-1" data-key="permspoofer" id="react-aria-:R2bnila:-tab-permspoofer" aria-selected="false" role="tab" class="z-0 w-full px-3 py-1 flex group relative justify-center items-center cursor-pointer transition-opacity tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 h-8 text-small rounded-small" type="button">
+                                        <div class="relative z-10 whitespace-nowrap transition-colors text-default-500 group-data-[selected=true]:text-primary-foreground" data-slot="tabContent">
+                                            <div class="flex items-center space-x-2">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8Zm.75 6.5h5v-5h-5Z"></path>
+                                                    <path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75Zm3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"></path>
+                                                </svg>
+                                                <span>Perm Spoofer</span>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button data-slot="tab" tabindex="-1" data-key="tempspoofer" id="react-aria-:R2bnila:-tab-tempspoofer" aria-selected="false" role="tab" class="z-0 w-full px-3 py-1 flex group relative justify-center items-center cursor-pointer transition-opacity tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 h-8 text-small rounded-small" type="button">
+                                        <div class="relative z-10 whitespace-nowrap transition-colors text-default-500 group-data-[selected=true]:text-primary-foreground" data-slot="tabContent">
+                                            <div class="flex items-center space-x-2">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8Zm.75 6.5h5v-5h-5Z"></path>
+                                                    <path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75Zm3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"></path>
+                                                </svg>
+                                                <span>Temp Spoofer</span>
+                                            </div>
+                                        </div>
+                                    </button>
+                                    <button data-slot="tab" tabindex="-1" data-key="packages" id="react-aria-:R2bnila:-tab-packages" aria-selected="false" role="tab" class="z-0 w-full px-3 py-1 flex group relative justify-center items-center cursor-pointer transition-opacity tap-highlight-transparent data-[disabled=true]:cursor-not-allowed data-[disabled=true]:opacity-30 data-[hover-unselected=true]:opacity-disabled outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 h-8 text-small rounded-small" type="button">
+                                        <div class="relative z-10 whitespace-nowrap transition-colors text-default-500 group-data-[selected=true]:text-primary-foreground" data-slot="tabContent">
+                                            <div class="flex items-center space-x-2">
+                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M8.75 8h6.5a.75.75 0 0 1 .75.75v6.5a.75.75 0 0 1-.75.75h-6.5a.75.75 0 0 1-.75-.75v-6.5A.75.75 0 0 1 8.75 8Zm.75 6.5h5v-5h-5Z"></path>
+                                                    <path d="M15.25 1a.75.75 0 0 1 .75.75V4h2.25c.966 0 1.75.784 1.75 1.75V8h2.25a.75.75 0 0 1 0 1.5H20v5h2.25a.75.75 0 0 1 0 1.5H20v2.25A1.75 1.75 0 0 1 18.25 20H16v2.25a.75.75 0 0 1-1.5 0V20h-5v2.25a.75.75 0 0 1-1.5 0V20H5.75A1.75 1.75 0 0 1 4 18.25V16H1.75a.75.75 0 0 1 0-1.5H4v-5H1.75a.75.75 0 0 1 0-1.5H4V5.75C4 4.784 4.784 4 5.75 4H8V1.75a.75.75 0 0 1 1.5 0V4h5V1.75a.75.75 0 0 1 .75-.75Zm3 17.5a.25.25 0 0 0 .25-.25V5.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25Z"></path>
+                                                </svg>
+                                                <span>Packages</span>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </main>
+                    </section>
+                </div>
+                <section>
+                    <main id="about" class="m-auto flex min-h-screen flex-col items-center justify-center px-4 py-8 text-center lg:px-12 lg:py-16 max-w-5xl">
+                        <h1 class="tracking-tight inline font-semibold text-gray-400 text-[2.3rem] lg:text-5xl leading-9 mb-20">
+                            WHY <span class="font-orbitron font-black text-primary">US</span>
+                            <!-- -->
+                            ?
+                        </h1>
+                        <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/delivery.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">Automatic Delivery</h3>
+                                        <p class="font-light text-default-600">With just a few clicks, you automatically receive our detailed guide and license in your email.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/eye.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">Undetectable</h3>
+                                        <p class="font-light text-default-600">We maintain a perfect record of zero detections and are committed to upholding this standard of excellence indefinitely. Always up to date.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/easy.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">Easy To Use</h3>
+                                        <p class="font-light text-default-600">It doesn &#x27;t get easier than this. Video guides, detailed instructions, and a full support team are available whenever needed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/money.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">Full Refunds</h3>
+                                        <p class="font-light text-default-600">We offer full refunds if our software malfunctions or does not work as expected. With Void, you either get unbanned or receive your money back.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/community.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">Active Community</h3>
+                                        <p class="font-light text-default-600">Void has a vibrant community where you can join and make new friends who share similar interests!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="opacity:0;transform:translateY(20px) translateZ(0)">
+                                <div class="h-full">
+                                    <div class="features_card">
+                                        <div class="features_icon_card square">
+                                            <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                                <img src="/icons/support.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large features_icon"/>
+                                            </div>
+                                        </div>
+                                        <h3 class="mb-2 text-xl tracking-tight lg:text-2xl ">24/7 Support</h3>
+                                        <p class="font-light text-default-600">Ensuring unparalleled customer satisfaction, Void offers trained support in multiple languages and time zones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </section>
+                <div>
+                    <section>
+                        <main id="payments" class="m-auto flex min-h-screen max-w-screen-xl flex-col items-center justify-center px-4 py-8 text-center lg:px-12 lg:py-16">
+                            <div class="mb-20">
+                                <h1 class="tracking-tight inline font-semibold text-gray-400 text-[2.3rem] lg:text-5xl leading-9 mb-0">
+                                    PAYMENT
+                                    <!-- -->
+                                    <span class="font-orbitron font-black text-primary">METHODS</span>
+                                </h1>
+                                <p class="w-full font-light md:w-1/2 my-2 text-lg lg:text-xl text-gray-400 block max-w-full !w-full mt-6">We cover a wide variety of payment methods and we also offer vouchers that can be traded.</p>
+                            </div>
+                        </main>
+                    </section>
+                </div>
+            </section>
+            <div>
+                <section>
+                    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                        <div class="footer_card my-12">
+                            <h3 class=" mt-12  font-orbitron text-4xl text-slate-400">GET THE FRESH START YOU DESERVE</h3>
+                            <h3 class="mb-12 mt-2 font-orbitron text-xl text-slate-400">It &#x27;s a new ERA, get Void and in no time you &#x27;ll be back to beaming opponents in games !</h3>
+                            <div class="space-x-6">
+                                <a class="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-large [&amp;&gt;svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none shadow-lg shadow-primary/40 bg-primary text-primary-foreground data-[hover=true]:opacity-hover" tabindex="0" role="button" href="/#products">Shop</a>
+                                <a class="tap-highlight-transparent no-underline hover:opacity-80 active:opacity-disabled transition-opacity z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium px-unit-6 min-w-unit-24 h-unit-12 text-medium gap-unit-3 rounded-large [&amp;&gt;svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none bg-transparent border-primary text-primary data-[hover=true]:opacity-hover" tabindex="0" role="button" href="/#about">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="overflow-hidden">
+                <div class="z-50 mt-auto w-screen bg-[#0D1117] p-4">
+                    <div class="mx-auto max-w-screen-xl">
+                        <div class="md:flex md:justify-between">
+                            <div class="mb-6 max-w-2xl md:mb-0">
+                                <a class="relative tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity flex items-center" tabindex="0" role="link" href="/">
+                                    <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:70px">
+                                        <img src="/logo/logo.gif" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large" width="70"/>
+                                    </div>
+                                    <span class="self-center whitespace-nowrap font-orbitron text-2xl text-sky-500">OID</span>
+                                </a>
+                                <p class="mt-6 text-gray-500 dark:text-gray-400 ">Void , the greatest and most advanced gaming augmentation service on the market.</p>
+                                <p class="my-2 text-gray-500 dark:text-gray-400 ">Here at Void, we offer the tools for you to destroy your enemies with the industry’s latest and greatest in-game spoofer technologies. With our carefully tested, continuously monitored, easy to use, and community-verified spoofers.</p>
+                                <p class="my-2 text-gray-500 dark:text-gray-400 ">Void LTD.</p>
+                            </div>
+                            <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
+                                <div>
+                                    <h2 class="mb-6 font-semibold uppercase text-gray-900 dark:text-white">Spoofer</h2>
+                                    <ul class="text-gray-600 dark:text-gray-400">
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="/#products">Temp Spoofer</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="/#products">Perm Spoofer</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h2 class="mb-6 font-semibold uppercase text-gray-900 dark:text-white">Follow us</h2>
+                                    <ul class="text-gray-600 dark:text-gray-400">
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="https://www.youtube.com/@nogerman-pr8ee" rel="noopener noreferrer" target="_blank">Youtube</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="https://discord.gg/devo1d" rel="noopener noreferrer" target="_blank">Discord</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h2 class="mb-6 font-semibold uppercase text-gray-900 dark:text-white">Legal</h2>
+                                    <ul class="text-gray-600 dark:text-gray-400">
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="/">Privacy Policy</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity footer_underline" tabindex="0" role="link" href="https://discord.com/channels/1054111043086991380/1067916521885679646" rel="noopener noreferrer" target="_blank">Terms &amp;Conditions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="my-8 rounded-lg border border-gray-700 sm:mx-auto lg:my-8"/>
+                        <div class="my-8 sm:flex sm:items-center sm:justify-between">
+                            <span class="flex items-center text-sm text-gray-400 sm:text-center">
+                                © 2023<a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled transition-opacity px-2" tabindex="0" role="link" href="/">Void.</a>
+                                All Rights Reserved.
+                            </span>
+                            <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white" tabindex="0" role="link" href="https://discord.gg/devo1d" rel="noopener noreferrer" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                        <path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"></path>
+                                    </svg>
+                                </a>
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white" tabindex="0" role="link" href="https://www.youtube.com/@nogerman-pr8ee" rel="noopener noreferrer" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                        <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                    </svg>
+                                </a>
+                                <a class="relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-medium text-primary no-underline hover:opacity-80 active:opacity-disabled fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white" tabindex="0" role="link" href="https://www.elitepvpers.com/forum/valorant-trading/5165255-14-99-void-permanent-spoofer-cheapest-one-click-spoofer.html" rel="noopener noreferrer" target="_blank">
+                                    <div class="relative shadow-black/5 shadow-none rounded-large" style="max-width:fit-content">
+                                        <img src="/icons/elite.png" class="relative z-10 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large w-7"/>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="/_next/static/chunks/webpack-9030be22cfc0a918.js" async=""></script>
+        <script>
+            (self.__next_f = self.__next_f || []).push([0]);
+            self.__next_f.push([2, null])
+        </script>
+        <script>
+            self.__next_f.push([1, "1:HL[\"/_next/static/css/8311b8364a5d51ae.css\",\"style\"]\n0:\"$L2\"\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "3:HL[\"/_next/static/css/f905e3f5554554b8.css\",\"style\"]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "4:I[7690,[],\"\"]\n6:I[7831,[],\"\"]\n7:I[3836,[\"682\",\"static/chunks/07115393-0a66b3ea90e8b4e2.js\",\"420\",\"static/chunks/9081a741-50529ccef24d3133.js\",\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"40\",\"static/chunks/40-73d3ba9743a5cd39.js\",\"931\",\"static/chunks/app/page-0d1ceca0a73bb16c.js\"],\"\"]\n8:I[7224,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27c"])
+        </script>
+        <script>
+            self.__next_f.push([1, "cbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"\"]\n9:I[2414,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/ch"])
+        </script>
+        <script>
+            self.__next_f.push([1, "unks/app/layout-38b2a1286568e3d4.js\"],\"TRPCReactProvider\"]\na:I[5969,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NextUiProvider\"]\nb:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c"])
+        </script>
+        <script>
+            self.__next_f.push([1, ".js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"Navbar\"]\nc:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/6"])
+        </script>
+        <script>
+            self.__next_f.push([1, "9-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarContent\"]\nd:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarBrand\"]\ne:I[5250,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"st"])
+        </script>
+        <script>
+            self.__next_f.push([1, "atic/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"\"]\nf:I[8699,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697"])
+        </script>
+        <script>
+            self.__next_f.push([1, ".js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"Image\"]\n10:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarItem\"]\n11:I[7151,[\"448\",\"static/chunks/448-9d288712b8a"])
+        </script>
+        <script>
+            self.__next_f.push([1, "24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"Link\"]\n12:I[8452,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chu"])
+        </script>
+        <script>
+            self.__next_f.push([1, "nks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"Button\"]\n14:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarMenuToggle\"]\n15:I[2410,[\"448\""])
+        </script>
+        <script>
+            self.__next_f.push([1, ",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarMenu\"]\n16:I[2410,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9"])
+        </script>
+        <script>
+            self.__next_f.push([1, "fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"NavbarMenuItem\"]\n17:I[5613,[],\"\"]\n18:I[449,[\"601\",\"static/chunks/app/error-be4892ff22ce13e1.js\"],\"\"]\n19:I[1778,[],\"\"]\n1a:I[3295,[\"448\",\"static/chunks/448-9d288712b8a24c28.js\",\"715\",\"static/chunks/715-4d584df441e6296c.js\",\"834\",\"static/chunks/834-27ccbba0642013a5.js\",\"270\",\"static/chunks/270-9fcd7d40b078f269.js\",\"812\",\"static/chunks/812-2e70824dd"])
+        </script>
+        <script>
+            self.__next_f.push([1, "49d0697.js\",\"69\",\"static/chunks/69-b8e530cc409252ec.js\",\"185\",\"static/chunks/app/layout-38b2a1286568e3d4.js\"],\"\"]\n1d:I[8955,[],\"\"]\n13:T50e,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"])
+        </script>
+        <script>
+            self.__next_f.push([1, "1b:T50e,"])
+        </script>
+        <script>
+            self.__next_f.push([1, "M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"])
+        </script>
+        <script>
+            self.__next_f.push([1, "2:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/8311b8364a5d51ae.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"qLcJ50Askq1xgqE7q_a7U\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"__PAGE__\",{},[\"$L5\",[\"$\",\"$L6\",null,{\"propsForComponent\":{\"params\":{},\"searchParams\":{}},\"Component\":\"$7\",\"isStaticGeneration\":false}],null]]},[null,[\"$\",\"html\",null,{\"lang\":\"en\",\"className\":\"scroll-smooth bg-[#0d1117] dark\",\"suppressHydrationWarning\":true,\"children\":[\"$\",\"body\",null,{\"className\":\"font-kanit antialiased\",\"children\":[[\"$\",\"$L8\",null,{\"starCount\":1000,\"starColor\":[255,255,255],\"speedFactor\":0.05}],[\"$\",\"$L9\",null,{\"cookies\":\"\",\"children\":[\"$\",\"$La\",null,{\"children\":[[\"$\",\"$Lb\",null,{\"shouldHideOnScroll\":true,\"maxWidth\":\"xl\",\"className\":\"navbar_underline_glow fixed z-50 bg-transparent p-2 shadow-md backdrop-saturate-100\",\"children\":[[\"$\",\"$Lc\",null,{\"className\":\"basis-1/5 sm:basis-full\",\"justify\":\"start\",\"children\":[[\"$\",\"$Ld\",null,{\"as\":\"li\",\"className\":\"max-w-fit gap-3\",\"children\":[\"$\",\"$Le\",null,{\"className\":\"flex items-center justify-start gap-1\",\"href\":\"/\",\"children\":[\"$\",\"$Lf\",null,{\"src\":\"/logo/logo.gif\",\"width\":70}]}]}],[\"$\",\"ul\",null,{\"className\":\"ml-2 hidden justify-start gap-4 md:flex\",\"children\":[[\"$\",\"$L10\",\"/#home\",{\"children\":[\"$\",\"$Le\",null,{\"className\":\"relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary\",\"color\":\"foreground\",\"href\":\"/#home\",\"children\":\"Home\"}]}],[\"$\",\"$L10\",\"/#about\",{\"children\":[\"$\",\"$Le\",null,{\"className\":\"relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary\",\"color\":\"foreground\",\"href\":\"/#about\",\"children\":\"About\"}]}],[\"$\",\"$L10\",\"/#products\",{\"children\":[\"$\",\"$Le\",null,{\"className\":\"relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary\",\"color\":\"foreground\",\"href\":\"/#products\",\"children\":\"Products\"}]}],[\"$\",\"$L10\",\"/faq\",{\"children\":[\"$\",\"$Le\",null,{\"className\":\"relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary\",\"color\":\"foreground\",\"href\":\"/faq\",\"children\":\"Faq\"}]}],[\"$\",\"$L10\",\"/reviews\",{\"children\":[\"$\",\"$Le\",null,{\"className\":\"relative inline-flex items-center tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 text-foreground no-underline hover:opacity-80 active:opacity-disabled transition-opacity navbar_underline hover:text-primary data-[active=true]:font-medium data-[active=true]:text-primary\",\"color\":\"foreground\",\"href\":\"/reviews\",\"children\":\"Reviews\"}]}]]}]]}],[\"$\",\"$Lc\",null,{\"className\":\"hidden basis-1/5 sm:basis-full md:flex\",\"justify\":\"end\",\"children\":[[\"$\",\"$L10\",null,{\"children\":[\"$\",\"$L11\",null,{\"className\":\"flex items-center justify-center\",\"isExternal\":true,\"href\":\"https://www.elitepvpers.com/forum/valorant-trading/5165255-14-99-void-permanent-spoofer-cheapest-one-click-spoofer.html\",\"aria-label\":\"Youtube\",\"children\":[\"$\",\"$Lf\",null,{\"src\":\"/icons/elite.png\",\"className\":\"w-7 \"}]}]}],[\"$\",\"$L10\",null,{\"children\":[\"$\",\"$L11\",null,{\"className\":\"flex items-center justify-center\",\"isExternal\":true,\"href\":\"https://www.youtube.com/@nogerman-pr8ee\",\"aria-label\":\"Youtube\",\"children\":[\"$\",\"svg\",null,{\"stroke\":\"currentColor\",\"fill\":\"currentColor\",\"strokeWidth\":\"0\",\"viewBox\":\"0 0 576 512\",\"className\":\"text-xl text-primary \",\"children\":[\"$undefined\",[[\"$\",\"path\",\"0\",{\"d\":\"M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z\",\"children\":\"$undefined\"}]]],\"style\":{\"color\":\"$undefined\"},\"height\":\"1em\",\"width\":\"1em\",\"xmlns\":\"http://www.w3.org/2000/svg\"}]}]}],[\"$\",\"$L10\",null,{\"className\":\"hidden md:flex\",\"children\":[\"$\",\"$L12\",null,{\"isExternal\":true,\"as\":\"$11\",\"className\":\"text-sm  text-white\",\"href\":\"https://discord.gg/devo1d\",\"startContent\":[\"$\",\"svg\",null,{\"stroke\":\"currentColor\",\"fill\":\"currentColor\",\"strokeWidth\":\"0\",\"viewBox\":\"0 0 640 512\",\"className\":\"text-xl text-primary\",\"children\":[\"$undefined\",[[\"$\",\"path\",\"0\",{\"d\":\"$13\",\"children\":\"$undefined\"}]]],\"style\":{\"color\":\"$undefined\"},\"height\":\"1em\",\"width\":\"1em\",\"xmlns\":\"http://www.w3.org/2000/svg\"}],\"variant\":\"flat\",\"color\":\"primary\",\"children\":\"Discord\"}]}]]}],[\"$\",\"$Lc\",null,{\"className\":\"basis-1 pl-4 md:hidden\",\"justify\":\"end\",\"children\":[\"$\",\"$L14\",null,{}]}],[\"$\",\"$L15\",null,{\"className\":\"bg-transparent backdrop-saturate-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-4 mt-20 flex flex-col gap-2\",\"children\":[[\"$\",\"$L16\",\"Home-0\",{\"children\":[\"$\",\"$L11\",null,{\"color\":\"foreground\",\"href\":\"/#home\",\"size\":\"lg\",\"children\":\"Home\"}]}],[\"$\",\"$L16\",\"About-1\",{\"children\":[\"$\",\"$L11\",null,{\"color\":\"foreground\",\"href\":\"/#about\",\"size\":\"lg\",\"children\":\"About\"}]}],[\"$\",\"$L16\",\"Products-2\",{\"children\":[\"$\",\"$L11\",null,{\"color\":\"foreground\",\"href\":\"/#products\",\"size\":\"lg\",\"children\":\"Products\"}]}],[\"$\",\"$L16\",\"Faq-3\",{\"children\":[\"$\",\"$L11\",null,{\"color\":\"foreground\",\"href\":\"/faq\",\"size\":\"lg\",\"children\":\"Faq\"}]}],[\"$\",\"$L16\",\"Reviews-4\",{\"children\":[\"$\",\"$L11\",null,{\"color\":\"foreground\",\"href\":\"/reviews\",\"size\":\"lg\",\"children\":\"Reviews\"}]}]]}]}]]}],[\"$\",\"$L17\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"loadingScripts\":\"$undefined\",\"hasLoading\":false,\"error\":\"$18\",\"errorStyles\":[],\"errorScripts\":[],\"template\":[\"$\",\"$L19\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/f905e3f5554554b8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}],[\"$\",\"$L1a\",null,{}],[\"$\",\"section\",null,{\"className\":\"overflow-hidden\",\"children\":[\"$\",\"div\",null,{\"className\":\"z-50 mt-auto w-screen bg-[#0D1117] p-4\",\"children\":[\"$\",\"div\",null,{\"className\":\"mx-auto max-w-screen-xl\",\"children\":[[\"$\",\"div\",null,{\"className\":\"md:flex md:justify-between\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mb-6 max-w-2xl md:mb-0\",\"children\":[[\"$\",\"$L11\",null,{\"className\":\"flex items-center\",\"href\":\"/\",\"children\":[[\"$\",\"$Lf\",null,{\"src\":\"/logo/logo.gif\",\"width\":70}],[\"$\",\"span\",null,{\"className\":\"self-center whitespace-nowrap font-orbitron text-2xl text-sky-500\",\"children\":\"OID\"}]]}],[\"$\",\"p\",null,{\"className\":\"mt-6 text-gray-500 dark:text-gray-400 \",\"children\":\"Void , the greatest and most advanced gaming augmentation service on the market.\"}],[\"$\",\"p\",null,{\"className\":\"my-2 text-gray-500 dark:text-gray-400 \",\"children\":\"Here at Void, we offer the tools for you to destroy your enemies with the industry’s latest and greatest in-game spoofer technologies. With our carefully tested, continuously monitored, easy to use, and community-verified spoofers.\"}],[\"$\",\"p\",null,{\"className\":\"my-2 text-gray-500 dark:text-gray-400 \",\"children\":\"Void LTD.\"}]]}],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"mb-6 font-semibold uppercase text-gray-900 dark:text-white\",\"children\":\"Spoofer\"}],[\"$\",\"ul\",null,{\"className\":\"text-gray-600 dark:text-gray-400\",\"children\":[[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"href\":\"/#products\",\"className\":\"footer_underline\",\"children\":\"Temp Spoofer\"}]}],[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"href\":\"/#products\",\"className\":\"footer_underline\",\"children\":\"Perm Spoofer\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"mb-6 font-semibold uppercase text-gray-900 dark:text-white\",\"children\":\"Follow us\"}],[\"$\",\"ul\",null,{\"className\":\"text-gray-600 dark:text-gray-400\",\"children\":[[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://www.youtube.com/@nogerman-pr8ee\",\"className\":\"footer_underline\",\"children\":\"Youtube\"}]}],[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://discord.gg/devo1d\",\"className\":\"footer_underline\",\"children\":\"Discord\"}]}]]}]]}],[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"mb-6 font-semibold uppercase text-gray-900 dark:text-white\",\"children\":\"Legal\"}],[\"$\",\"ul\",null,{\"className\":\"text-gray-600 dark:text-gray-400\",\"children\":[[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"href\":\"/\",\"className\":\"footer_underline\",\"children\":\"Privacy Policy\"}]}],[\"$\",\"li\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://discord.com/channels/1054111043086991380/1067916521885679646\",\"className\":\"footer_underline\",\"children\":\"Terms \u0026 Conditions\"}]}]]}]]}]]}]]}],[\"$\",\"hr\",null,{\"className\":\"my-8 rounded-lg border border-gray-700 sm:mx-auto lg:my-8\"}],[\"$\",\"div\",null,{\"className\":\"my-8 sm:flex sm:items-center sm:justify-between\",\"children\":[[\"$\",\"span\",null,{\"className\":\"flex items-center text-sm text-gray-400 sm:text-center\",\"children\":[\"© 2023\",[\"$\",\"$L11\",null,{\"href\":\"/\",\"className\":\"px-2\",\"children\":\"Void.\"}],\"All Rights Reserved.\"]}],[\"$\",\"div\",null,{\"className\":\"mt-4 flex space-x-6 sm:mt-0 sm:justify-center\",\"children\":[[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://discord.gg/devo1d\",\"className\":\"fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"height\":\"1em\",\"viewBox\":\"0 0 640 512\",\"children\":[\"$\",\"path\",null,{\"d\":\"$1b\"}]}]}],[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://www.youtube.com/@nogerman-pr8ee\",\"className\":\"fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"height\":\"1em\",\"viewBox\":\"0 0 576 512\",\"children\":[\"$\",\"path\",null,{\"d\":\"M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z\"}]}]}],[\"$\",\"$L11\",null,{\"isExternal\":true,\"href\":\"https://www.elitepvpers.com/forum/valorant-trading/5165255-14-99-void-permanent-spoofer-cheapest-one-click-spoofer.html\",\"className\":\"fill-gray-500 transition-all duration-500 hover:fill-gray-900 dark:hover:fill-white\",\"children\":[\"$\",\"$Lf\",null,{\"src\":\"/icons/elite.png\",\"className\":\"w-7 \"}]}]]}]]}]]}]}]}]]}]}]]}]}],null]],\"initialHead\":[false,\"$L1c\"],\"globalErrorComponent\":\"$1d\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "1c:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"Void Spoofer\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Explore the depths of The Void and find your path to greatness.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"Void Spoofer\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"Explore the depths of The Void and find your path to greatness.\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:url\",\"content\":\"https://thevoid-bay.vercel.app\"}],[\"$\",\"meta\",\"7\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:image\",\"content\":\"https://file.garden/ZVuaXjrahkhXWc7g/voidd_banner.gif\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"11\",{\"name\":\"twitter:title\",\"content\":\"Void Spoofer\"}],[\"$\",\"meta\",\"12\",{\"name\":\"twitter:description\",\"content\":\"Explore the depths of The Void and find your path to greatness.\"}],[\"$\",\"meta\",\"13\",{\"name\":\"twitter:image\",\"content\":\"https://file.garden/ZVuaXjrahkhXWc7g/voidd_banner.gif\"}],[\"$\",\"link\",\"14\",{\"rel\":\"icon\",\"href\":\"/logo/logo.gif\"}]]\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, "5:null\n"])
+        </script>
+        <script>
+            self.__next_f.push([1, ""])
+        </script>
+    </body>
+</html>
